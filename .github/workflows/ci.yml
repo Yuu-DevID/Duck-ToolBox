@@ -22,7 +22,7 @@ jobs:
     name: CI
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    environment: ${{ github.event_name == 'push' && 'Telegram' || '' }}
+    
 
     steps:
       - name: Checkout
